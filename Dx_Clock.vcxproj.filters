@@ -15,12 +15,12 @@
     <ClCompile Include="src\main\main.cpp">
       <Filter>src\main</Filter>
     </ClCompile>
-    <ClCompile Include="[0] ClockApp.cpp">
+    <ClCompile Include="src\Library\[0] ClockApp.cpp">
       <Filter>src\Library</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="[0] ClockApp.h">
+    <ClInclude Include="src\Library\[0] ClockApp.h">
       <Filter>src\Library</Filter>
     </ClInclude>
   </ItemGroup>

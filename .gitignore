@@ -1,0 +1,34 @@
+# VS / MSBuild
+*.obj
+*.exe
+*.pdb
+*.ipch
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+.vs/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Build artifacts
+Debug/
+Release/
+x64/
+*.log
+
+# CMake/CLion系 (念のため)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+
+# IDE
+.idea/
+*.iml
+workspace.xml
+
+# その他
+*.filters

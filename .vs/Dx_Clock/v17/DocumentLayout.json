@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "G:\\Git\\Dx_Clock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4209A2F-F5EC-44B8-ACB4-96A7804A37AB}|Dx_Clock.vcxproj|G:\\Git\\Dx_Clock\\[0] ClockApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D4209A2F-F5EC-44B8-ACB4-96A7804A37AB}|Dx_Clock.vcxproj|solutionrelative:[0] ClockApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D4209A2F-F5EC-44B8-ACB4-96A7804A37AB}|Dx_Clock.vcxproj|G:\\Git\\Dx_Clock\\src\\Library\\[0] ClockApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4209A2F-F5EC-44B8-ACB4-96A7804A37AB}|Dx_Clock.vcxproj|solutionrelative:src\\Library\\[0] ClockApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4209A2F-F5EC-44B8-ACB4-96A7804A37AB}|Dx_Clock.vcxproj|G:\\Git\\Dx_Clock\\src\\Library\\[0] ClockApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4209A2F-F5EC-44B8-ACB4-96A7804A37AB}|Dx_Clock.vcxproj|solutionrelative:src\\Library\\[0] ClockApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4209A2F-F5EC-44B8-ACB4-96A7804A37AB}|Dx_Clock.vcxproj|G:\\Git\\Dx_Clock\\src\\main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -18,8 +22,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "G:\\Git\\Dx_Clock\\src\\main\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main\\main.cpp",
+              "ToolTip": "G:\\Git\\Dx_Clock\\src\\main\\main.cpp",
+              "RelativeToolTip": "src\\main\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-23T19:04:25.844Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -28,31 +46,33 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "[0] ClockApp.h",
-              "DocumentMoniker": "G:\\Git\\Dx_Clock\\[0] ClockApp.h",
-              "RelativeDocumentMoniker": "[0] ClockApp.h",
-              "ToolTip": "G:\\Git\\Dx_Clock\\[0] ClockApp.h",
-              "RelativeToolTip": "[0] ClockApp.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "G:\\Git\\Dx_Clock\\src\\Library\\[0] ClockApp.h",
+              "RelativeDocumentMoniker": "src\\Library\\[0] ClockApp.h",
+              "ToolTip": "G:\\Git\\Dx_Clock\\src\\Library\\[0] ClockApp.h",
+              "RelativeToolTip": "src\\Library\\[0] ClockApp.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-23T19:06:34.056Z",
+              "WhenOpened": "2025-07-23T19:59:02.953Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "G:\\Git\\Dx_Clock\\src\\main\\main.cpp",
-              "RelativeDocumentMoniker": "src\\main\\main.cpp",
-              "ToolTip": "G:\\Git\\Dx_Clock\\src\\main\\main.cpp",
-              "RelativeToolTip": "src\\main\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "[0] ClockApp.cpp",
+              "DocumentMoniker": "G:\\Git\\Dx_Clock\\src\\Library\\[0] ClockApp.cpp",
+              "RelativeDocumentMoniker": "src\\Library\\[0] ClockApp.cpp",
+              "ToolTip": "G:\\Git\\Dx_Clock\\src\\Library\\[0] ClockApp.cpp",
+              "RelativeToolTip": "src\\Library\\[0] ClockApp.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-23T19:04:25.844Z",
+              "WhenOpened": "2025-07-23T20:10:41.847Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         },
