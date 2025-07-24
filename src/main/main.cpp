@@ -19,8 +19,9 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
   GuiButton btnAlarm(120, 10, 100, 30, "Alarm");
   GuiButton btnTimer(230, 10, 100, 30, "Timer");
   GuiButton btnStopWatch(340, 10, 120, 30, "StopWatch");
-  GuiButton btnMode(480, 10, 80, 30, "Light/Dark");
-  GuiButton btnExit(570, 10, 60, 30, "Close");
+  GuiButton btnMode(480, 10, 100, 30, "Light/Dark"); 
+  GuiButton btnExit(590, 10, 40, 30, "X");
+  
 
   while (ProcessMessage() == 0 && CheckHitKey(KEY_INPUT_ESCAPE) == 0)
   {
@@ -71,10 +72,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
       DrawString(280, 240, "Stopwatch Mode", fgColor);
       break;
     }
-    clock.Update();
     clock.GetTimeString(timeStr, sizeof(timeStr));
-
-    DrawString(240, 220, timeStr, GetColor(255, 255, 255));
 
     ScreenFlip();
     WaitTimer(100);
