@@ -1,6 +1,6 @@
 #pragma once
 
-class CLOCK_APP
+class GuiButton
 {
 public:
     
