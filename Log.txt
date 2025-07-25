@@ -1,907 +1,169 @@
 ﻿0:ChangeWindowMode実行 
-0:ウインドウモードフラグが立てられました
-6:ＤＸライブラリの初期化処理開始
-7:	システムの情報を出力します
-8:		ＤＸライブラリ Ver3.24 
-8:		論理プロセッサの数 : 12
-8:		ＯＳ  Windows10 ( Build 19045  )
-110:		現時点のＣＰＵ動作速度：大体3.72GHz
-110:		ＭＭＸ命令を使用します
-110:		ＳＳＥ命令が使用可能です
-110:		ＳＳＥ２命令が使用可能です
-111:		ＣＰＵベンダ：GenuineIntel
-113:		ＣＰＵ名：Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
-113:	ＣＯＭの初期化... 成功
-117:	非同期読み込み処理の初期化...成功
-117:	ファイルアクセス処理の初期化...成功
-118:	メモリ総量:32690.37MB  空きメモリ領域:11029.67MB 
-118:	タイマーの精度を検査します
-119:	精度結果 更新回数 マルチメディアタイマー：0  パフォーマンスカウンター：60
-119:	 パフォーマンスカウンターを使用します タイマー精度 : 10000.000000 KHz 
-119:	 ソフトの二重起動検査... 二重起動はされていませんでした
-120:	ウインドウクラスを登録します... 登録に成功しました
-120:	ウインドウモード起動用のウインドウを作成します
-120:	ディスプレイ情報のセットアップ開始
-121:		モニターの数：4  ディスプレイデバイスの数：4
-121:		No.0  モニター名：\\.\DISPLAY1　1920x1080　32bit　60Hz  96x96dpi
-121:		No.1  モニター名：\\.\DISPLAY2　1280x2048　32bit　60Hz  96x96dpi
-122:		No.2  モニター名：\\.\DISPLAY3　2048x1280　32bit　60Hz  96x96dpi
-122:		No.3  モニター名：\\.\DISPLAY4　1920x1080　32bit　60Hz  96x96dpi
-227:	ディスプレイ情報のセットアップ完了
-227:	ウインドウ矩形 ( 624, 249 )-( 1280, 768 )
-236:	ウインドウの作成に成功しました
-237:	ウインドウを表示します
-293:	ＩＭＥを無効にしました
-296:	ウインドウスタイルをウインドウモード用に変更します... 完了
-318:	XInput DLL の読み込み中... 成功
-319:	DirectInput関係初期化処理
-319:		DirectInput8 の取得を試みます...成功
-357:			引き続き初期化処理... 初期化成功
-364:		ジョイパッドの初期化... 
-365:			XInput 対応コントローラーのチェックを開始します
-365:				XInput 対応コントローラー No.0 をチェック
-365:				XInput 対応コントローラー No.0 の接続は確認できませんでした
-366:				XInput 対応コントローラー No.1 をチェック
-366:				XInput 対応コントローラー No.1 の接続は確認できませんでした
-366:				XInput 対応コントローラー No.2 をチェック
-367:				XInput 対応コントローラー No.2 の接続は確認できませんでした
-367:				XInput 対応コントローラー No.3 をチェック
-367:				XInput 対応コントローラー No.3 の接続は確認できませんでした
-367:			XInput 対応コントローラーのチェック完了
-367:			DirectInput 対応ジョイパッドの列挙を開始します
-650:			DirectInput 対応ジョイパッドの列挙終了
-650:		ジョイパッドの初期化は正常に終了しました
-650:		マウスデバイスの初期化... 初期化成功
-650:		キーボードデバイスの初期化... 初期化成功
-659:	DirectInput 関連の初期化は正常に終了しました
-662:	WASAPI の初期化を行います
-693:		デバイス名 : Out 1-2 (MOTU M Series)
-697:		デフォルト遅延時間 : 11.610 ms
-697:		最小遅延時間       : 3.000 ms
-697:		遅延時間           : 11.610 ms
-700:		チャンネル数  　   : 2 ch
-700:		量子化ビット深度   : 32 bit
-700:		有効ビット深度　   : 32 bit
-701:		サンプリングレート : 44100 Hz
-701:		データ形式         : 浮動小数点型
-735:		動作モード         : 共有モード
-735:	WASAPI の初期化は正常に終了しました
-737:	d3d11.dll の読み込み.... 成功
-738:	dxgi.dll の読み込み.... 成功
-738:	API CreateDXGIFactory2 のアドレスを取得します.... 成功
-739:	IDXGIFactory2 を作成します.... 成功
-741:	API CreateDXGIFactory6 のアドレスを取得します.... 成功
-741:	IDXGIAdapter を列挙
-741:		Adapter No.0 Desc:NVIDIA GeForce GTX 1060 6GB  VRAM:6029MB
-742:			Output Device No.0 Name:\\.\DISPLAY1 ( 0, 0 )-( 1920, 1080 )
-742:			Output Device No.1 Name:\\.\DISPLAY2 ( -1600, 0 )-( -320, 2048 )
-742:			Output Device No.2 Name:\\.\DISPLAY3 ( 0, 1080 )-( 2048, 2360 )
-742:			Output Device No.3 Name:\\.\DISPLAY4 ( 1920, 0 )-( 3840, 1080 )
-742:		Adapter No.1 Desc:Microsoft Basic Render Driver  VRAM:0MB
-743:	API D3D11CreateDevice のアドレスを取得します.... 成功
-743:	IDXGIAdapter を取得します.... 成功
-743:	IDXGIAdapter1 を取得します.... 成功
-744:	IDXGIAdapter2 を取得します.... 成功
-744:	IDXGIAdapter3 を取得します.... 成功
-744:	IDXGIAdapter4 を取得します.... 成功
-745:	Direct3D 11 FeatureLevel 11_0 以上を対象とします
-745:	ID3D11Device オブジェクトを取得します.... 成功
-908:	IDXGIDevice1 を取得します.... 成功
-908:	IDXGIDevice1->SetMaximunFrameLatency( 1 ); を実行しました
-908:	[ウインドウモード 640x480 ( 640, 296 )-( 1280, 776 )]
-908:	IDXGISwapChain2 を作成します.... 成功
-909:	IDXGIFactory2->CreateSwapChainForHwnd の戻り値：0x00000000
-910:	IDXGIOutput を取得します.... 成功
-910:	Graphics Device:NVIDIA GeForce GTX 1060 6GB
-911:	画面のフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
-911:	16bit Zバッファフォーマットは DXGI_FORMAT_D16_UNORM です
-911:	24bit Zバッファフォーマットは DXGI_FORMAT_D24_UNORM_S8_UINT です
-911:	32bit Zバッファフォーマットは DXGI_FORMAT_D32_FLOAT です
-911:	16bit カラーフォーマットは DXGI_FORMAT_B5G6R5_UNORM です
-911:	32bit カラーフォーマットは DXGI_FORMAT_B8G8R8X8_UNORM です
-912:	アルファ付き 16bit カラーフォーマットは DXGI_FORMAT_B4G4R4A4_UNORM です
-912:	アルファ付き 32bit カラーフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
-912:	アルファテスト用 16bit カラーフォーマットは DXGI_FORMAT_B5G5R5A1_UNORM です
-912:	アルファテスト用 32bit カラーフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
-912:	ＤＸＴ１テクスチャフォーマットは DXGI_FORMAT_BC1_UNORM です
-912:	ＤＸＴ２テクスチャフォーマットは使えません
-913:	ＤＸＴ３テクスチャフォーマットは DXGI_FORMAT_BC2_UNORM です
-913:	ＤＸＴ４テクスチャフォーマットは使えません
-913:	ＤＸＴ５テクスチャフォーマットは DXGI_FORMAT_BC3_UNORM です
-913:	BC7_UNORM テクスチャフォーマットは DXGI_FORMAT_BC7_UNORM です
-913:	BC7_UNORM_SRGB テクスチャフォーマットは DXGI_FORMAT_BC7_UNORM_SRGB です
-913:	ABGR 整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_UNORM です
-913:	ABGR 浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_FLOAT です
-913:	ABGR 浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32B32A32_FLOAT です
-913:	１チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8_UNORM です
-913:	１チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_UNORM です
-914:	１チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_FLOAT です
-914:	１チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32_FLOAT です
-914:	２チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8G8_UNORM です
-914:	２チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_UNORM です
-915:	２チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_FLOAT です
-915:	２チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32_FLOAT です
-915:	描画用 16bit カラーフォーマットは DXGI_FORMAT_B5G6R5_UNORM です
-915:	描画用 32bit カラーフォーマットは DXGI_FORMAT_B8G8R8X8_UNORM です
-915:	描画用アルファ付き 32bit カラーフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
-916:	描画用 ABGR 整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_UNORM です
-916:	描画用 ABGR 浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_FLOAT です
-917:	描画用 ABGR 浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32B32A32_FLOAT です
-917:	描画用１チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8_UNORM です
-917:	描画用１チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_UNORM です
-917:	描画用１チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_FLOAT です
-917:	描画用１チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32_FLOAT です
-918:	描画用２チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8G8_UNORM です
-918:	描画用２チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_UNORM です
-918:	描画用２チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_FLOAT です
-918:	描画用２チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32_FLOAT です
-918:	使用する機能レベル:D3D_FEATURE_LEVEL_11_1
-919:	同時にレンダリングできるバッファの数:8
-919:	最大テクスチャサイズ　幅:16384 高さ:16384
-919:	標準描画用の頂点バッファの作成.... 成功
-920:	シェーダーコード関係の初期化.... 成功
-931:	各種シェーダー用定数バッファの作成.... 成功
-932:	各種 ID3D11InputLayout の作成.... 成功
-958:	画像の単純転送処理の初期化... 成功
-960:	深度バッファを作成します.... 成功
-964:	フォントの初期化を行います
-966:	フォントの初期化は正常に終了しました
-1048:	文字コードバッファの初期化を行います... 完了しました
-1072:ＤＸライブラリの初期化処理終了
-1087:File Open Error : G:\Git\Dx_Clock\alarm.wav
-1087:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-1200:File Open Error : G:\Git\Dx_Clock\alarm.wav
-1200:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-1302:File Open Error : G:\Git\Dx_Clock\alarm.wav
-1302:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-1404:File Open Error : G:\Git\Dx_Clock\alarm.wav
-1404:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-1506:File Open Error : G:\Git\Dx_Clock\alarm.wav
-1506:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-1609:File Open Error : G:\Git\Dx_Clock\alarm.wav
-1609:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-1711:File Open Error : G:\Git\Dx_Clock\alarm.wav
-1711:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-1816:File Open Error : G:\Git\Dx_Clock\alarm.wav
-1817:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-1919:File Open Error : G:\Git\Dx_Clock\alarm.wav
-1919:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-2021:File Open Error : G:\Git\Dx_Clock\alarm.wav
-2021:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-2121:File Open Error : G:\Git\Dx_Clock\alarm.wav
-2122:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-2227:File Open Error : G:\Git\Dx_Clock\alarm.wav
-2228:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-2329:File Open Error : G:\Git\Dx_Clock\alarm.wav
-2329:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-2430:File Open Error : G:\Git\Dx_Clock\alarm.wav
-2430:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-2536:File Open Error : G:\Git\Dx_Clock\alarm.wav
-2536:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-2638:File Open Error : G:\Git\Dx_Clock\alarm.wav
-2638:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-2739:File Open Error : G:\Git\Dx_Clock\alarm.wav
-2739:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-2840:File Open Error : G:\Git\Dx_Clock\alarm.wav
-2841:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-2941:File Open Error : G:\Git\Dx_Clock\alarm.wav
-2941:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-3046:File Open Error : G:\Git\Dx_Clock\alarm.wav
-3047:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-3149:File Open Error : G:\Git\Dx_Clock\alarm.wav
-3149:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-3251:File Open Error : G:\Git\Dx_Clock\alarm.wav
-3251:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-3354:File Open Error : G:\Git\Dx_Clock\alarm.wav
-3354:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-3455:File Open Error : G:\Git\Dx_Clock\alarm.wav
-3455:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-3557:File Open Error : G:\Git\Dx_Clock\alarm.wav
-3557:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-3658:File Open Error : G:\Git\Dx_Clock\alarm.wav
-3659:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-3760:File Open Error : G:\Git\Dx_Clock\alarm.wav
-3760:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-3861:File Open Error : G:\Git\Dx_Clock\alarm.wav
-3861:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-3962:File Open Error : G:\Git\Dx_Clock\alarm.wav
-3963:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-4065:File Open Error : G:\Git\Dx_Clock\alarm.wav
-4066:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-4169:File Open Error : G:\Git\Dx_Clock\alarm.wav
-4181:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-4285:File Open Error : G:\Git\Dx_Clock\alarm.wav
-4285:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-4388:File Open Error : G:\Git\Dx_Clock\alarm.wav
-4389:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-4490:File Open Error : G:\Git\Dx_Clock\alarm.wav
-4490:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-4592:File Open Error : G:\Git\Dx_Clock\alarm.wav
-4592:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-4693:File Open Error : G:\Git\Dx_Clock\alarm.wav
-4693:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-4795:File Open Error : G:\Git\Dx_Clock\alarm.wav
-4795:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-4896:File Open Error : G:\Git\Dx_Clock\alarm.wav
-4896:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-4997:File Open Error : G:\Git\Dx_Clock\alarm.wav
-4998:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-5099:File Open Error : G:\Git\Dx_Clock\alarm.wav
-5099:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-5203:File Open Error : G:\Git\Dx_Clock\alarm.wav
-5203:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-5306:File Open Error : G:\Git\Dx_Clock\alarm.wav
-5306:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-5409:File Open Error : G:\Git\Dx_Clock\alarm.wav
-5409:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-5512:File Open Error : G:\Git\Dx_Clock\alarm.wav
-5513:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-5618:File Open Error : G:\Git\Dx_Clock\alarm.wav
-5618:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-5719:File Open Error : G:\Git\Dx_Clock\alarm.wav
-5719:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-5821:File Open Error : G:\Git\Dx_Clock\alarm.wav
-5821:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-5922:File Open Error : G:\Git\Dx_Clock\alarm.wav
-5923:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-6026:File Open Error : G:\Git\Dx_Clock\alarm.wav
-6026:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-6128:File Open Error : G:\Git\Dx_Clock\alarm.wav
-6128:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-6231:File Open Error : G:\Git\Dx_Clock\alarm.wav
-6231:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-6337:File Open Error : G:\Git\Dx_Clock\alarm.wav
-6337:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-6439:File Open Error : G:\Git\Dx_Clock\alarm.wav
-6439:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-6540:File Open Error : G:\Git\Dx_Clock\alarm.wav
-6541:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-6647:File Open Error : G:\Git\Dx_Clock\alarm.wav
-6647:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-6749:File Open Error : G:\Git\Dx_Clock\alarm.wav
-6749:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-6855:File Open Error : G:\Git\Dx_Clock\alarm.wav
-6855:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-6957:File Open Error : G:\Git\Dx_Clock\alarm.wav
-6957:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-7058:File Open Error : G:\Git\Dx_Clock\alarm.wav
-7058:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-7160:File Open Error : G:\Git\Dx_Clock\alarm.wav
-7161:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-7261:File Open Error : G:\Git\Dx_Clock\alarm.wav
-7261:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-7363:File Open Error : G:\Git\Dx_Clock\alarm.wav
-7364:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-7465:File Open Error : G:\Git\Dx_Clock\alarm.wav
-7465:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-7567:File Open Error : G:\Git\Dx_Clock\alarm.wav
-7567:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-7668:File Open Error : G:\Git\Dx_Clock\alarm.wav
-7668:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-7770:File Open Error : G:\Git\Dx_Clock\alarm.wav
-7770:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-7873:File Open Error : G:\Git\Dx_Clock\alarm.wav
-7873:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-7974:File Open Error : G:\Git\Dx_Clock\alarm.wav
-7974:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-8079:File Open Error : G:\Git\Dx_Clock\alarm.wav
-8079:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-8180:File Open Error : G:\Git\Dx_Clock\alarm.wav
-8180:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-8284:File Open Error : G:\Git\Dx_Clock\alarm.wav
-8284:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-8385:File Open Error : G:\Git\Dx_Clock\alarm.wav
-8385:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-8486:File Open Error : G:\Git\Dx_Clock\alarm.wav
-8487:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-8594:File Open Error : G:\Git\Dx_Clock\alarm.wav
-8594:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-8695:File Open Error : G:\Git\Dx_Clock\alarm.wav
-8696:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-8797:File Open Error : G:\Git\Dx_Clock\alarm.wav
-8797:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-8899:File Open Error : G:\Git\Dx_Clock\alarm.wav
-8899:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-8999:File Open Error : G:\Git\Dx_Clock\alarm.wav
-8999:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-9104:File Open Error : G:\Git\Dx_Clock\alarm.wav
-9104:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-9206:File Open Error : G:\Git\Dx_Clock\alarm.wav
-9206:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-9307:File Open Error : G:\Git\Dx_Clock\alarm.wav
-9307:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-9409:File Open Error : G:\Git\Dx_Clock\alarm.wav
-9409:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-9511:File Open Error : G:\Git\Dx_Clock\alarm.wav
-9512:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-9613:File Open Error : G:\Git\Dx_Clock\alarm.wav
-9613:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-9715:File Open Error : G:\Git\Dx_Clock\alarm.wav
-9716:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-9821:File Open Error : G:\Git\Dx_Clock\alarm.wav
-9821:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-9922:File Open Error : G:\Git\Dx_Clock\alarm.wav
-9923:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-10025:File Open Error : G:\Git\Dx_Clock\alarm.wav
-10025:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-10129:File Open Error : G:\Git\Dx_Clock\alarm.wav
-10130:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-10236:File Open Error : G:\Git\Dx_Clock\alarm.wav
-10236:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-10337:File Open Error : G:\Git\Dx_Clock\alarm.wav
-10337:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-10438:File Open Error : G:\Git\Dx_Clock\alarm.wav
-10439:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-10541:File Open Error : G:\Git\Dx_Clock\alarm.wav
-10542:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-10642:File Open Error : G:\Git\Dx_Clock\alarm.wav
-10643:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-10745:File Open Error : G:\Git\Dx_Clock\alarm.wav
-10745:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-10846:File Open Error : G:\Git\Dx_Clock\alarm.wav
-10846:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-10948:File Open Error : G:\Git\Dx_Clock\alarm.wav
-10948:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-11049:File Open Error : G:\Git\Dx_Clock\alarm.wav
-11050:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-11152:File Open Error : G:\Git\Dx_Clock\alarm.wav
-11152:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-11253:File Open Error : G:\Git\Dx_Clock\alarm.wav
-11254:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-11355:File Open Error : G:\Git\Dx_Clock\alarm.wav
-11355:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-11457:File Open Error : G:\Git\Dx_Clock\alarm.wav
-11457:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-11559:File Open Error : G:\Git\Dx_Clock\alarm.wav
-11559:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-11661:File Open Error : G:\Git\Dx_Clock\alarm.wav
-11661:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-11761:File Open Error : G:\Git\Dx_Clock\alarm.wav
-11762:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-11864:File Open Error : G:\Git\Dx_Clock\alarm.wav
-11865:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-11967:File Open Error : G:\Git\Dx_Clock\alarm.wav
-11968:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-12069:File Open Error : G:\Git\Dx_Clock\alarm.wav
-12069:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-12170:File Open Error : G:\Git\Dx_Clock\alarm.wav
-12170:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-12272:File Open Error : G:\Git\Dx_Clock\alarm.wav
-12272:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-12374:File Open Error : G:\Git\Dx_Clock\alarm.wav
-12374:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-12475:File Open Error : G:\Git\Dx_Clock\alarm.wav
-12475:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-12575:File Open Error : G:\Git\Dx_Clock\alarm.wav
-12576:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-12677:File Open Error : G:\Git\Dx_Clock\alarm.wav
-12678:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-12779:File Open Error : G:\Git\Dx_Clock\alarm.wav
-12779:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-12881:File Open Error : G:\Git\Dx_Clock\alarm.wav
-12882:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-12983:File Open Error : G:\Git\Dx_Clock\alarm.wav
-12983:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-13089:File Open Error : G:\Git\Dx_Clock\alarm.wav
-13089:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-13190:File Open Error : G:\Git\Dx_Clock\alarm.wav
-13190:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-13292:File Open Error : G:\Git\Dx_Clock\alarm.wav
-13292:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-13393:File Open Error : G:\Git\Dx_Clock\alarm.wav
-13393:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-13493:File Open Error : G:\Git\Dx_Clock\alarm.wav
-13494:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-13601:File Open Error : G:\Git\Dx_Clock\alarm.wav
-13601:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-13702:File Open Error : G:\Git\Dx_Clock\alarm.wav
-13703:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-13805:File Open Error : G:\Git\Dx_Clock\alarm.wav
-13805:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-13906:File Open Error : G:\Git\Dx_Clock\alarm.wav
-13906:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-14008:File Open Error : G:\Git\Dx_Clock\alarm.wav
-14008:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-14109:File Open Error : G:\Git\Dx_Clock\alarm.wav
-14109:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-14210:File Open Error : G:\Git\Dx_Clock\alarm.wav
-14211:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-14313:File Open Error : G:\Git\Dx_Clock\alarm.wav
-14313:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-14413:File Open Error : G:\Git\Dx_Clock\alarm.wav
-14414:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-14515:File Open Error : G:\Git\Dx_Clock\alarm.wav
-14516:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-14617:File Open Error : G:\Git\Dx_Clock\alarm.wav
-14618:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-14719:File Open Error : G:\Git\Dx_Clock\alarm.wav
-14719:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-14823:File Open Error : G:\Git\Dx_Clock\alarm.wav
-14824:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-14927:File Open Error : G:\Git\Dx_Clock\alarm.wav
-14927:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-15030:File Open Error : G:\Git\Dx_Clock\alarm.wav
-15031:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-15131:File Open Error : G:\Git\Dx_Clock\alarm.wav
-15132:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-15233:File Open Error : G:\Git\Dx_Clock\alarm.wav
-15233:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-15335:File Open Error : G:\Git\Dx_Clock\alarm.wav
-15335:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-15438:File Open Error : G:\Git\Dx_Clock\alarm.wav
-15438:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-15538:File Open Error : G:\Git\Dx_Clock\alarm.wav
-15539:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-15641:File Open Error : G:\Git\Dx_Clock\alarm.wav
-15641:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-15743:File Open Error : G:\Git\Dx_Clock\alarm.wav
-15743:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-15845:File Open Error : G:\Git\Dx_Clock\alarm.wav
-15846:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-15946:File Open Error : G:\Git\Dx_Clock\alarm.wav
-15946:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-16049:File Open Error : G:\Git\Dx_Clock\alarm.wav
-16050:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-16151:File Open Error : G:\Git\Dx_Clock\alarm.wav
-16151:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-16252:File Open Error : G:\Git\Dx_Clock\alarm.wav
-16253:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-16353:File Open Error : G:\Git\Dx_Clock\alarm.wav
-16353:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-16455:File Open Error : G:\Git\Dx_Clock\alarm.wav
-16455:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-16555:File Open Error : G:\Git\Dx_Clock\alarm.wav
-16555:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-16657:File Open Error : G:\Git\Dx_Clock\alarm.wav
-16657:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-16759:File Open Error : G:\Git\Dx_Clock\alarm.wav
-16759:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-16860:File Open Error : G:\Git\Dx_Clock\alarm.wav
-16860:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-16962:File Open Error : G:\Git\Dx_Clock\alarm.wav
-16963:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-17070:File Open Error : G:\Git\Dx_Clock\alarm.wav
-17070:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-17171:File Open Error : G:\Git\Dx_Clock\alarm.wav
-17171:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-17272:File Open Error : G:\Git\Dx_Clock\alarm.wav
-17272:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-17373:File Open Error : G:\Git\Dx_Clock\alarm.wav
-17373:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-17475:File Open Error : G:\Git\Dx_Clock\alarm.wav
-17475:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-17579:File Open Error : G:\Git\Dx_Clock\alarm.wav
-17579:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-17681:File Open Error : G:\Git\Dx_Clock\alarm.wav
-17681:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-17782:File Open Error : G:\Git\Dx_Clock\alarm.wav
-17782:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-17884:File Open Error : G:\Git\Dx_Clock\alarm.wav
-17884:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-17986:File Open Error : G:\Git\Dx_Clock\alarm.wav
-17986:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-18087:File Open Error : G:\Git\Dx_Clock\alarm.wav
-18087:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-18189:File Open Error : G:\Git\Dx_Clock\alarm.wav
-18189:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-18290:File Open Error : G:\Git\Dx_Clock\alarm.wav
-18290:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-18392:File Open Error : G:\Git\Dx_Clock\alarm.wav
-18392:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-18494:File Open Error : G:\Git\Dx_Clock\alarm.wav
-18494:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-18595:File Open Error : G:\Git\Dx_Clock\alarm.wav
-18595:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-18695:File Open Error : G:\Git\Dx_Clock\alarm.wav
-18696:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-18798:File Open Error : G:\Git\Dx_Clock\alarm.wav
-18798:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-18899:File Open Error : G:\Git\Dx_Clock\alarm.wav
-18899:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-19001:File Open Error : G:\Git\Dx_Clock\alarm.wav
-19001:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-19102:File Open Error : G:\Git\Dx_Clock\alarm.wav
-19103:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-19208:File Open Error : G:\Git\Dx_Clock\alarm.wav
-19208:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-19310:File Open Error : G:\Git\Dx_Clock\alarm.wav
-19310:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-19411:File Open Error : G:\Git\Dx_Clock\alarm.wav
-19411:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-19512:File Open Error : G:\Git\Dx_Clock\alarm.wav
-19512:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-19613:File Open Error : G:\Git\Dx_Clock\alarm.wav
-19613:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-19714:File Open Error : G:\Git\Dx_Clock\alarm.wav
-19714:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-19816:File Open Error : G:\Git\Dx_Clock\alarm.wav
-19816:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-19917:File Open Error : G:\Git\Dx_Clock\alarm.wav
-19918:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-20018:File Open Error : G:\Git\Dx_Clock\alarm.wav
-20018:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-20120:File Open Error : G:\Git\Dx_Clock\alarm.wav
-20121:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-20222:File Open Error : G:\Git\Dx_Clock\alarm.wav
-20222:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-20324:File Open Error : G:\Git\Dx_Clock\alarm.wav
-20324:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-20425:File Open Error : G:\Git\Dx_Clock\alarm.wav
-20426:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-20527:File Open Error : G:\Git\Dx_Clock\alarm.wav
-20527:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-20628:File Open Error : G:\Git\Dx_Clock\alarm.wav
-20628:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-20729:File Open Error : G:\Git\Dx_Clock\alarm.wav
-20729:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-20830:File Open Error : G:\Git\Dx_Clock\alarm.wav
-20830:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-20940:File Open Error : G:\Git\Dx_Clock\alarm.wav
-20940:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-21043:File Open Error : G:\Git\Dx_Clock\alarm.wav
-21044:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-21145:File Open Error : G:\Git\Dx_Clock\alarm.wav
-21145:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-21247:File Open Error : G:\Git\Dx_Clock\alarm.wav
-21248:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-21350:File Open Error : G:\Git\Dx_Clock\alarm.wav
-21350:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-21451:File Open Error : G:\Git\Dx_Clock\alarm.wav
-21451:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-21553:File Open Error : G:\Git\Dx_Clock\alarm.wav
-21553:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-21654:File Open Error : G:\Git\Dx_Clock\alarm.wav
-21655:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-21756:File Open Error : G:\Git\Dx_Clock\alarm.wav
-21756:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-21857:File Open Error : G:\Git\Dx_Clock\alarm.wav
-21857:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-21960:File Open Error : G:\Git\Dx_Clock\alarm.wav
-21960:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-22066:File Open Error : G:\Git\Dx_Clock\alarm.wav
-22068:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-22171:File Open Error : G:\Git\Dx_Clock\alarm.wav
-22171:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-22274:File Open Error : G:\Git\Dx_Clock\alarm.wav
-22274:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-22376:File Open Error : G:\Git\Dx_Clock\alarm.wav
-22377:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-22479:File Open Error : G:\Git\Dx_Clock\alarm.wav
-22480:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-22583:File Open Error : G:\Git\Dx_Clock\alarm.wav
-22583:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-22685:File Open Error : G:\Git\Dx_Clock\alarm.wav
-22685:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-22786:File Open Error : G:\Git\Dx_Clock\alarm.wav
-22786:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-22888:File Open Error : G:\Git\Dx_Clock\alarm.wav
-22888:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-22989:File Open Error : G:\Git\Dx_Clock\alarm.wav
-22989:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-23090:File Open Error : G:\Git\Dx_Clock\alarm.wav
-23091:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-23192:File Open Error : G:\Git\Dx_Clock\alarm.wav
-23192:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-23293:File Open Error : G:\Git\Dx_Clock\alarm.wav
-23293:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-23395:File Open Error : G:\Git\Dx_Clock\alarm.wav
-23395:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-23501:File Open Error : G:\Git\Dx_Clock\alarm.wav
-23502:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-23606:File Open Error : G:\Git\Dx_Clock\alarm.wav
-23606:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-23707:File Open Error : G:\Git\Dx_Clock\alarm.wav
-23707:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-23808:File Open Error : G:\Git\Dx_Clock\alarm.wav
-23809:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-23910:File Open Error : G:\Git\Dx_Clock\alarm.wav
-23910:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-24019:File Open Error : G:\Git\Dx_Clock\alarm.wav
-24019:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-24123:File Open Error : G:\Git\Dx_Clock\alarm.wav
-24123:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-24239:File Open Error : G:\Git\Dx_Clock\alarm.wav
-24240:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-24342:File Open Error : G:\Git\Dx_Clock\alarm.wav
-24342:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-24447:File Open Error : G:\Git\Dx_Clock\alarm.wav
-24447:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-24549:File Open Error : G:\Git\Dx_Clock\alarm.wav
-24550:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-24652:File Open Error : G:\Git\Dx_Clock\alarm.wav
-24652:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-24754:File Open Error : G:\Git\Dx_Clock\alarm.wav
-24754:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-24856:File Open Error : G:\Git\Dx_Clock\alarm.wav
-24856:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-24958:File Open Error : G:\Git\Dx_Clock\alarm.wav
-24958:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-25062:File Open Error : G:\Git\Dx_Clock\alarm.wav
-25063:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-25166:File Open Error : G:\Git\Dx_Clock\alarm.wav
-25166:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-25266:File Open Error : G:\Git\Dx_Clock\alarm.wav
-25266:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-25368:File Open Error : G:\Git\Dx_Clock\alarm.wav
-25368:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-25470:File Open Error : G:\Git\Dx_Clock\alarm.wav
-25470:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-25572:File Open Error : G:\Git\Dx_Clock\alarm.wav
-25573:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-25674:File Open Error : G:\Git\Dx_Clock\alarm.wav
-25674:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-25774:File Open Error : G:\Git\Dx_Clock\alarm.wav
-25775:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-25876:File Open Error : G:\Git\Dx_Clock\alarm.wav
-25876:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-25982:File Open Error : G:\Git\Dx_Clock\alarm.wav
-25982:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-26085:File Open Error : G:\Git\Dx_Clock\alarm.wav
-26085:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-26190:File Open Error : G:\Git\Dx_Clock\alarm.wav
-26190:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-26291:File Open Error : G:\Git\Dx_Clock\alarm.wav
-26291:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-26392:File Open Error : G:\Git\Dx_Clock\alarm.wav
-26392:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-26493:File Open Error : G:\Git\Dx_Clock\alarm.wav
-26493:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-26594:File Open Error : G:\Git\Dx_Clock\alarm.wav
-26594:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-26696:File Open Error : G:\Git\Dx_Clock\alarm.wav
-26696:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-26796:File Open Error : G:\Git\Dx_Clock\alarm.wav
-26797:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-26899:File Open Error : G:\Git\Dx_Clock\alarm.wav
-26899:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-27003:File Open Error : G:\Git\Dx_Clock\alarm.wav
-27004:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-27105:File Open Error : G:\Git\Dx_Clock\alarm.wav
-27105:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-27210:File Open Error : G:\Git\Dx_Clock\alarm.wav
-27210:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-27310:File Open Error : G:\Git\Dx_Clock\alarm.wav
-27311:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-27412:File Open Error : G:\Git\Dx_Clock\alarm.wav
-27412:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-27513:File Open Error : G:\Git\Dx_Clock\alarm.wav
-27513:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-27615:File Open Error : G:\Git\Dx_Clock\alarm.wav
-27615:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-27721:File Open Error : G:\Git\Dx_Clock\alarm.wav
-27722:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-27823:File Open Error : G:\Git\Dx_Clock\alarm.wav
-27823:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-27926:File Open Error : G:\Git\Dx_Clock\alarm.wav
-27926:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-28027:File Open Error : G:\Git\Dx_Clock\alarm.wav
-28027:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-28128:File Open Error : G:\Git\Dx_Clock\alarm.wav
-28129:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-28230:File Open Error : G:\Git\Dx_Clock\alarm.wav
-28230:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-28332:File Open Error : G:\Git\Dx_Clock\alarm.wav
-28332:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-28434:File Open Error : G:\Git\Dx_Clock\alarm.wav
-28434:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-28535:File Open Error : G:\Git\Dx_Clock\alarm.wav
-28536:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-28637:File Open Error : G:\Git\Dx_Clock\alarm.wav
-28638:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-28739:File Open Error : G:\Git\Dx_Clock\alarm.wav
-28739:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-28842:File Open Error : G:\Git\Dx_Clock\alarm.wav
-28842:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-28944:File Open Error : G:\Git\Dx_Clock\alarm.wav
-28944:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-29046:File Open Error : G:\Git\Dx_Clock\alarm.wav
-29046:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-29148:File Open Error : G:\Git\Dx_Clock\alarm.wav
-29148:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-29249:File Open Error : G:\Git\Dx_Clock\alarm.wav
-29249:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-29350:File Open Error : G:\Git\Dx_Clock\alarm.wav
-29350:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-29453:File Open Error : G:\Git\Dx_Clock\alarm.wav
-29453:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-29555:File Open Error : G:\Git\Dx_Clock\alarm.wav
-29555:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-29656:File Open Error : G:\Git\Dx_Clock\alarm.wav
-29656:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-29758:File Open Error : G:\Git\Dx_Clock\alarm.wav
-29758:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-29858:File Open Error : G:\Git\Dx_Clock\alarm.wav
-29858:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-29960:File Open Error : G:\Git\Dx_Clock\alarm.wav
-29960:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-30061:File Open Error : G:\Git\Dx_Clock\alarm.wav
-30061:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-30162:File Open Error : G:\Git\Dx_Clock\alarm.wav
-30163:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-30264:File Open Error : G:\Git\Dx_Clock\alarm.wav
-30264:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-30367:File Open Error : G:\Git\Dx_Clock\alarm.wav
-30367:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-30468:File Open Error : G:\Git\Dx_Clock\alarm.wav
-30468:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-30571:File Open Error : G:\Git\Dx_Clock\alarm.wav
-30571:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-30675:File Open Error : G:\Git\Dx_Clock\alarm.wav
-30675:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-30777:File Open Error : G:\Git\Dx_Clock\alarm.wav
-30777:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-30878:File Open Error : G:\Git\Dx_Clock\alarm.wav
-30878:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-30980:File Open Error : G:\Git\Dx_Clock\alarm.wav
-30980:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-31082:File Open Error : G:\Git\Dx_Clock\alarm.wav
-31082:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-31186:File Open Error : G:\Git\Dx_Clock\alarm.wav
-31186:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-31288:File Open Error : G:\Git\Dx_Clock\alarm.wav
-31288:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-31389:File Open Error : G:\Git\Dx_Clock\alarm.wav
-31389:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-31491:File Open Error : G:\Git\Dx_Clock\alarm.wav
-31491:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-31591:File Open Error : G:\Git\Dx_Clock\alarm.wav
-31592:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-31693:File Open Error : G:\Git\Dx_Clock\alarm.wav
-31693:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-31795:File Open Error : G:\Git\Dx_Clock\alarm.wav
-31795:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-31901:File Open Error : G:\Git\Dx_Clock\alarm.wav
-31901:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-32009:File Open Error : G:\Git\Dx_Clock\alarm.wav
-32010:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-32111:File Open Error : G:\Git\Dx_Clock\alarm.wav
-32111:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-32213:File Open Error : G:\Git\Dx_Clock\alarm.wav
-32213:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-32314:File Open Error : G:\Git\Dx_Clock\alarm.wav
-32314:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-32416:File Open Error : G:\Git\Dx_Clock\alarm.wav
-32416:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-32520:File Open Error : G:\Git\Dx_Clock\alarm.wav
-32520:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-32621:File Open Error : G:\Git\Dx_Clock\alarm.wav
-32621:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-32723:File Open Error : G:\Git\Dx_Clock\alarm.wav
-32723:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-32824:File Open Error : G:\Git\Dx_Clock\alarm.wav
-32825:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-32928:File Open Error : G:\Git\Dx_Clock\alarm.wav
-32928:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-33031:File Open Error : G:\Git\Dx_Clock\alarm.wav
-33031:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-33133:File Open Error : G:\Git\Dx_Clock\alarm.wav
-33133:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-33236:File Open Error : G:\Git\Dx_Clock\alarm.wav
-33236:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-33338:File Open Error : G:\Git\Dx_Clock\alarm.wav
-33338:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-33439:File Open Error : G:\Git\Dx_Clock\alarm.wav
-33439:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-33541:File Open Error : G:\Git\Dx_Clock\alarm.wav
-33541:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-33644:File Open Error : G:\Git\Dx_Clock\alarm.wav
-33644:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-33744:File Open Error : G:\Git\Dx_Clock\alarm.wav
-33745:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-33847:File Open Error : G:\Git\Dx_Clock\alarm.wav
-33848:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-33950:File Open Error : G:\Git\Dx_Clock\alarm.wav
-33950:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-34053:File Open Error : G:\Git\Dx_Clock\alarm.wav
-34053:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-34154:File Open Error : G:\Git\Dx_Clock\alarm.wav
-34154:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-34255:File Open Error : G:\Git\Dx_Clock\alarm.wav
-34255:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-34356:File Open Error : G:\Git\Dx_Clock\alarm.wav
-34356:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-34458:File Open Error : G:\Git\Dx_Clock\alarm.wav
-34458:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-34560:File Open Error : G:\Git\Dx_Clock\alarm.wav
-34560:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-34661:File Open Error : G:\Git\Dx_Clock\alarm.wav
-34662:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-34763:File Open Error : G:\Git\Dx_Clock\alarm.wav
-34763:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-34865:File Open Error : G:\Git\Dx_Clock\alarm.wav
-34865:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-34967:File Open Error : G:\Git\Dx_Clock\alarm.wav
-34967:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-35069:File Open Error : G:\Git\Dx_Clock\alarm.wav
-35069:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-35170:File Open Error : G:\Git\Dx_Clock\alarm.wav
-35170:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-35271:File Open Error : G:\Git\Dx_Clock\alarm.wav
-35272:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-35373:File Open Error : G:\Git\Dx_Clock\alarm.wav
-35373:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-35475:File Open Error : G:\Git\Dx_Clock\alarm.wav
-35475:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-35578:File Open Error : G:\Git\Dx_Clock\alarm.wav
-35579:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-35679:File Open Error : G:\Git\Dx_Clock\alarm.wav
-35680:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-35782:File Open Error : G:\Git\Dx_Clock\alarm.wav
-35782:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-35885:File Open Error : G:\Git\Dx_Clock\alarm.wav
-35885:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-35985:File Open Error : G:\Git\Dx_Clock\alarm.wav
-35986:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-36091:File Open Error : G:\Git\Dx_Clock\alarm.wav
-36091:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-36192:File Open Error : G:\Git\Dx_Clock\alarm.wav
-36192:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-36293:File Open Error : G:\Git\Dx_Clock\alarm.wav
-36293:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-36396:File Open Error : G:\Git\Dx_Clock\alarm.wav
-36396:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-36499:File Open Error : G:\Git\Dx_Clock\alarm.wav
-36499:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-36610:File Open Error : G:\Git\Dx_Clock\alarm.wav
-36610:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-36710:File Open Error : G:\Git\Dx_Clock\alarm.wav
-36710:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-36813:File Open Error : G:\Git\Dx_Clock\alarm.wav
-36813:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-36916:File Open Error : G:\Git\Dx_Clock\alarm.wav
-36916:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-37019:File Open Error : G:\Git\Dx_Clock\alarm.wav
-37019:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-37122:File Open Error : G:\Git\Dx_Clock\alarm.wav
-37122:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-37225:File Open Error : G:\Git\Dx_Clock\alarm.wav
-37225:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-37329:File Open Error : G:\Git\Dx_Clock\alarm.wav
-37329:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-37434:File Open Error : G:\Git\Dx_Clock\alarm.wav
-37434:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-37538:File Open Error : G:\Git\Dx_Clock\alarm.wav
-37538:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-37639:File Open Error : G:\Git\Dx_Clock\alarm.wav
-37639:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-37740:File Open Error : G:\Git\Dx_Clock\alarm.wav
-37741:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-37844:File Open Error : G:\Git\Dx_Clock\alarm.wav
-37844:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-37948:File Open Error : G:\Git\Dx_Clock\alarm.wav
-37948:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-38050:File Open Error : G:\Git\Dx_Clock\alarm.wav
-38050:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-38152:File Open Error : G:\Git\Dx_Clock\alarm.wav
-38152:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-38253:File Open Error : G:\Git\Dx_Clock\alarm.wav
-38253:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-38354:File Open Error : G:\Git\Dx_Clock\alarm.wav
-38354:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-38456:File Open Error : G:\Git\Dx_Clock\alarm.wav
-38456:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-38557:File Open Error : G:\Git\Dx_Clock\alarm.wav
-38557:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-38663:File Open Error : G:\Git\Dx_Clock\alarm.wav
-38663:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-38767:File Open Error : G:\Git\Dx_Clock\alarm.wav
-38767:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-38869:File Open Error : G:\Git\Dx_Clock\alarm.wav
-38870:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
-38998:ウインドウを閉じようとしています
-39023:ウインドウが破棄されようとしています
-39023:ソフトを終了する準備が整いました
-39072:フォントの初期化を行います
-39072:フォントの初期化は正常に終了しました
-39132:d3d11.dll の解放 1
-39132:dxgi.dll の解放 1
-39133:Direct3D11 のオブジェクト数を出力
-39133:Direct3D11 のオブジェクト合計数 : 0
-39133:DirectInput 関連の終了処理... 完了
-39159:サウンド関連の終了処理... 完了
-39169:ウィンドウ関連の終了処理... 完了
-39240:ＣＯＭを終了... 完了
-39240:
-39240:Alloc memory dump
-39241:	Total size:0(0.000kb)  Alloc num:0
-39241:
+2:ウインドウモードフラグが立てられました
+9:ＤＸライブラリの初期化処理開始
+10:	システムの情報を出力します
+11:		ＤＸライブラリ Ver3.24 
+11:		論理プロセッサの数 : 12
+11:		ＯＳ  Windows10 ( Build 19045  )
+112:		現時点のＣＰＵ動作速度：大体3.69GHz
+114:		ＭＭＸ命令を使用します
+115:		ＳＳＥ命令が使用可能です
+115:		ＳＳＥ２命令が使用可能です
+116:		ＣＰＵベンダ：GenuineIntel
+119:		ＣＰＵ名：Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+119:	ＣＯＭの初期化... 成功
+123:	非同期読み込み処理の初期化...成功
+124:	ファイルアクセス処理の初期化...成功
+134:	メモリ総量:32690.37MB  空きメモリ領域:9454.29MB 
+135:	タイマーの精度を検査します
+135:	精度結果 更新回数 マルチメディアタイマー：0  パフォーマンスカウンター：60
+135:	 パフォーマンスカウンターを使用します タイマー精度 : 10000.000000 KHz 
+136:	 ソフトの二重起動検査... 二重起動はされていませんでした
+136:	ウインドウクラスを登録します... 登録に成功しました
+137:	ウインドウモード起動用のウインドウを作成します
+137:	ディスプレイ情報のセットアップ開始
+138:		モニターの数：4  ディスプレイデバイスの数：4
+138:		No.0  モニター名：\\.\DISPLAY1　1920x1080　32bit　60Hz  96x96dpi
+139:		No.1  モニター名：\\.\DISPLAY2　1280x2048　32bit　60Hz  96x96dpi
+139:		No.2  モニター名：\\.\DISPLAY3　2048x1280　32bit　60Hz  96x96dpi
+139:		No.3  モニター名：\\.\DISPLAY4　1920x1080　32bit　60Hz  96x96dpi
+250:	ディスプレイ情報のセットアップ完了
+250:	ウインドウ矩形 ( 624, 249 )-( 1280, 768 )
+260:	ウインドウの作成に成功しました
+261:	ウインドウを表示します
+332:	ＩＭＥを無効にしました
+336:	ウインドウスタイルをウインドウモード用に変更します... 完了
+359:	XInput DLL の読み込み中... 成功
+360:	DirectInput関係初期化処理
+361:		DirectInput8 の取得を試みます...成功
+405:			引き続き初期化処理... 初期化成功
+421:		ジョイパッドの初期化... 
+421:			XInput 対応コントローラーのチェックを開始します
+422:				XInput 対応コントローラー No.0 をチェック
+422:				XInput 対応コントローラー No.0 の接続は確認できませんでした
+422:				XInput 対応コントローラー No.1 をチェック
+422:				XInput 対応コントローラー No.1 の接続は確認できませんでした
+423:				XInput 対応コントローラー No.2 をチェック
+424:				XInput 対応コントローラー No.2 の接続は確認できませんでした
+424:				XInput 対応コントローラー No.3 をチェック
+424:				XInput 対応コントローラー No.3 の接続は確認できませんでした
+424:			XInput 対応コントローラーのチェック完了
+425:			DirectInput 対応ジョイパッドの列挙を開始します
+727:			DirectInput 対応ジョイパッドの列挙終了
+727:		ジョイパッドの初期化は正常に終了しました
+727:		マウスデバイスの初期化... 初期化成功
+727:		キーボードデバイスの初期化... 初期化成功
+737:	DirectInput 関連の初期化は正常に終了しました
+740:	WASAPI の初期化を行います
+775:		デバイス名 : Out 1-2 (MOTU M Series)
+778:		デフォルト遅延時間 : 11.610 ms
+778:		最小遅延時間       : 3.000 ms
+780:		遅延時間           : 11.610 ms
+782:		チャンネル数  　   : 2 ch
+782:		量子化ビット深度   : 32 bit
+782:		有効ビット深度　   : 32 bit
+782:		サンプリングレート : 44100 Hz
+783:		データ形式         : 浮動小数点型
+794:		動作モード         : 共有モード
+794:	WASAPI の初期化は正常に終了しました
+797:	d3d11.dll の読み込み.... 成功
+799:	dxgi.dll の読み込み.... 成功
+799:	API CreateDXGIFactory2 のアドレスを取得します.... 成功
+800:	IDXGIFactory2 を作成します.... 成功
+803:	API CreateDXGIFactory6 のアドレスを取得します.... 成功
+803:	IDXGIAdapter を列挙
+804:		Adapter No.0 Desc:NVIDIA GeForce GTX 1060 6GB  VRAM:6029MB
+804:			Output Device No.0 Name:\\.\DISPLAY1 ( 0, 0 )-( 1920, 1080 )
+804:			Output Device No.1 Name:\\.\DISPLAY2 ( -1600, 0 )-( -320, 2048 )
+804:			Output Device No.2 Name:\\.\DISPLAY3 ( 0, 1080 )-( 2048, 2360 )
+804:			Output Device No.3 Name:\\.\DISPLAY4 ( 1920, 0 )-( 3840, 1080 )
+805:		Adapter No.1 Desc:Microsoft Basic Render Driver  VRAM:0MB
+805:	API D3D11CreateDevice のアドレスを取得します.... 成功
+805:	IDXGIAdapter を取得します.... 成功
+805:	IDXGIAdapter1 を取得します.... 成功
+806:	IDXGIAdapter2 を取得します.... 成功
+806:	IDXGIAdapter3 を取得します.... 成功
+806:	IDXGIAdapter4 を取得します.... 成功
+807:	Direct3D 11 FeatureLevel 11_0 以上を対象とします
+807:	ID3D11Device オブジェクトを取得します.... 成功
+977:	IDXGIDevice1 を取得します.... 成功
+977:	IDXGIDevice1->SetMaximunFrameLatency( 1 ); を実行しました
+977:	[ウインドウモード 640x480 ( 640, 296 )-( 1280, 776 )]
+977:	IDXGISwapChain2 を作成します.... 成功
+980:	IDXGIFactory2->CreateSwapChainForHwnd の戻り値：0x00000000
+980:	IDXGIOutput を取得します.... 成功
+981:	Graphics Device:NVIDIA GeForce GTX 1060 6GB
+982:	画面のフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
+982:	16bit Zバッファフォーマットは DXGI_FORMAT_D16_UNORM です
+982:	24bit Zバッファフォーマットは DXGI_FORMAT_D24_UNORM_S8_UINT です
+982:	32bit Zバッファフォーマットは DXGI_FORMAT_D32_FLOAT です
+982:	16bit カラーフォーマットは DXGI_FORMAT_B5G6R5_UNORM です
+982:	32bit カラーフォーマットは DXGI_FORMAT_B8G8R8X8_UNORM です
+982:	アルファ付き 16bit カラーフォーマットは DXGI_FORMAT_B4G4R4A4_UNORM です
+983:	アルファ付き 32bit カラーフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
+983:	アルファテスト用 16bit カラーフォーマットは DXGI_FORMAT_B5G5R5A1_UNORM です
+983:	アルファテスト用 32bit カラーフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
+983:	ＤＸＴ１テクスチャフォーマットは DXGI_FORMAT_BC1_UNORM です
+983:	ＤＸＴ２テクスチャフォーマットは使えません
+984:	ＤＸＴ３テクスチャフォーマットは DXGI_FORMAT_BC2_UNORM です
+984:	ＤＸＴ４テクスチャフォーマットは使えません
+984:	ＤＸＴ５テクスチャフォーマットは DXGI_FORMAT_BC3_UNORM です
+984:	BC7_UNORM テクスチャフォーマットは DXGI_FORMAT_BC7_UNORM です
+984:	BC7_UNORM_SRGB テクスチャフォーマットは DXGI_FORMAT_BC7_UNORM_SRGB です
+984:	ABGR 整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_UNORM です
+985:	ABGR 浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_FLOAT です
+985:	ABGR 浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32B32A32_FLOAT です
+986:	１チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8_UNORM です
+986:	１チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_UNORM です
+986:	１チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_FLOAT です
+986:	１チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32_FLOAT です
+986:	２チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8G8_UNORM です
+986:	２チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_UNORM です
+987:	２チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_FLOAT です
+987:	２チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32_FLOAT です
+987:	描画用 16bit カラーフォーマットは DXGI_FORMAT_B5G6R5_UNORM です
+987:	描画用 32bit カラーフォーマットは DXGI_FORMAT_B8G8R8X8_UNORM です
+987:	描画用アルファ付き 32bit カラーフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
+988:	描画用 ABGR 整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_UNORM です
+988:	描画用 ABGR 浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_FLOAT です
+988:	描画用 ABGR 浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32B32A32_FLOAT です
+988:	描画用１チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8_UNORM です
+988:	描画用１チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_UNORM です
+989:	描画用１チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_FLOAT です
+989:	描画用１チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32_FLOAT です
+989:	描画用２チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8G8_UNORM です
+989:	描画用２チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_UNORM です
+989:	描画用２チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_FLOAT です
+989:	描画用２チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32_FLOAT です
+989:	使用する機能レベル:D3D_FEATURE_LEVEL_11_1
+989:	同時にレンダリングできるバッファの数:8
+989:	最大テクスチャサイズ　幅:16384 高さ:16384
+990:	標準描画用の頂点バッファの作成.... 成功
+990:	シェーダーコード関係の初期化.... 成功
+1002:	各種シェーダー用定数バッファの作成.... 成功
+1003:	各種 ID3D11InputLayout の作成.... 成功
+1028:	画像の単純転送処理の初期化... 成功
+1030:	深度バッファを作成します.... 成功
+1032:	フォントの初期化を行います
+1034:	フォントの初期化は正常に終了しました
+1117:	文字コードバッファの初期化を行います... 完了しました
+1135:ＤＸライブラリの初期化処理終了
+1151:File Open Error : G:\Git\Dx_Clock\alarm.wav
+1151:Sound File Load Error : G:\Git\Dx_Clock\alarm.wav
+70951:フォントの初期化を行います
+70951:フォントの初期化は正常に終了しました
+70970:d3d11.dll の解放 1
+70970:dxgi.dll の解放 1
+70971:Direct3D11 のオブジェクト数を出力
+70971:Direct3D11 のオブジェクト合計数 : 0
+70971:DirectInput 関連の終了処理... 完了
+70971:サウンド関連の終了処理... 完了
+70986:ウィンドウ関連の終了処理... ウインドウを閉じようとしています
+71001:ウインドウが破棄されようとしています
+71001:ソフトを終了する準備が整いました
+71157:完了
+71158:ＣＯＭを終了... 完了
+71158:
+71159:Alloc memory dump
+71159:	Total size:0(0.000kb)  Alloc num:0
+71159:
