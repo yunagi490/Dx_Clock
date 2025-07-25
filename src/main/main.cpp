@@ -1,7 +1,8 @@
 #include "DxLib.h"
-#include "../config/Clock.h"
-#include "../config/GuiButton.h"
-#include "../config/AppState.h"
+#include "../config/02_Clock.h"
+#include "../config/01_GuiButton.h"
+#include "../config/00_AppState.h"
+#include "../config/03_Alarm.h"
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
@@ -12,8 +13,9 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
   AppState state = {MODE_CLOCK, true};
   Clock clock;
+  Alarm alarm;
   char timeStr[16]; // "HH:MM:SS"用
-
+  
   // GUIボタン定義
   GuiButton btnClock(10, 10, 100, 30, "Clock");
   GuiButton btnAlarm(120, 10, 100, 30, "Alarm");
@@ -22,6 +24,9 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
   GuiButton btnMode(480, 10, 100, 30, "Light/Dark");
   GuiButton btnExit(590, 10, 40, 30, "X");
 
+  // Resource/Sounds/
+  int alarmSoundHandle = LoadSoundMem("alarm.wav");
+  
   while (ProcessMessage() == 0 && CheckHitKey(KEY_INPUT_ESCAPE) == 0)
   {
     int bgColor = state.darkMode ? GetColor(0, 0, 0) : GetColor(255, 255, 255);
@@ -30,6 +35,31 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
     ClearDrawScreen();
     SetBackgroundColor(0, 0, 0);
     DrawBox(0, 0, 640, 480, bgColor, TRUE);
+
+    
+    if (state.currentMode == MODE_ALARM)
+    {
+
+      DrawAlarmMode(alarm, bgColor, borderColor);
+
+
+      if (alarm.enabled && !alarm.triggered)
+      {
+        if (clock.hour == alarm.hour && clock.minute == alarm.minute)
+        {
+          alarm.triggered = true;
+          PlaySoundMem(alarmSoundHandle, DX_PLAYTYPE_BACK);
+        }
+      }
+
+
+      // Alarm解除（例：Zキー）
+      if (alarm.triggered && CheckHitKey(KEY_INPUT_Z))
+      {
+        StopSoundMem(alarmSoundHandle);
+        alarm.triggered = false;
+      }
+    }
 
     // ボタン描画
     btnClock.Draw(fgColor, bgColor, borderColor, btnClock.isClicked());

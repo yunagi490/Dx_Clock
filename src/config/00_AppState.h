@@ -12,3 +12,7 @@ struct AppState
   AppMode currentMode;
   bool darkMode;
 };
+
+
+
+

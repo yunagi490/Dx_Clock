@@ -9,7 +9,7 @@ public:
     void GetTimeString(char* buffer, int bufSize) const;
     void GetTimeString(char* buffer, int* bufSize);
 
-private:
+public:
     int hour;
     int minute;
     int second;
