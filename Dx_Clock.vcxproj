@@ -126,16 +126,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\config\AppMode.cpp" />
-    <ClCompile Include="src\config\AppState.cpp" />
-    <ClCompile Include="src\config\Clock.cpp" />
-    <ClCompile Include="src\config\GuiButton.cpp" />
+    <ClCompile Include="src\config\03_Alarm.cpp" />
+    <ClCompile Include="src\config\00_AppState.cpp" />
+    <ClCompile Include="src\config\02_Clock.cpp" />
+    <ClCompile Include="src\config\01_GuiButton.cpp" />
     <ClCompile Include="src\main\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\config\AppState.h" />
-    <ClInclude Include="src\config\Clock.h" />
-    <ClInclude Include="src\config\GuiButton.h" />
+    <ClInclude Include="src\config\03_Alarm.h" />
+    <ClInclude Include="src\config\00_AppState.h" />
+    <ClInclude Include="src\config\02_Clock.h" />
+    <ClInclude Include="src\config\01_GuiButton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
