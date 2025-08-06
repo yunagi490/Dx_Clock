@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0ec0834-48c5-4a33-b574-a58dabdc873b" name="変更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dx_Clock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dx_Clock/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="30HxgFyfrtviW5F7lOWT7R9NxMY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -99,6 +100,8 @@
       <workItem from="1753299099700" duration="145000" />
       <workItem from="1753299262578" duration="1441000" />
       <workItem from="1753301945248" duration="12670000" />
+      <workItem from="1753414162415" duration="8709000" />
+      <workItem from="1754477405385" duration="119000" />
     </task>
     <servers />
   </component>
@@ -147,5 +150,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
